@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+    <style>
+        body {
+          width: 1920px;
+          height: 1080px;
+          background-color: #2B303A;
+          color: #fff;
+        }
+        .bottom {
+            position: absolute;
+            bottom: 0;
+        }
+        .title {
+            color: rgb(171, 171, 171);
+            font-size: 40px;
+            margin-bottom: -65px;
+        }
+        .clinrec {
+            font-size: 50px;
+            color: bisque;
+        }
+        .msrp {
+            font-size: 50px;
+        }
+        .logo {
+            height: 100px;
+            margin-bottom: 80px;
+        }
+    </style>
+</head>
+
+<body style="padding: 100px;">
+    <img src="https://i.imgur.com/Js53YIk.png" class="logo"/>
+    <h1 style='font-size: 120px; margin-top: -35px;'>{name}</h1>
+    <p class="title">Формы выпуска</p>
+    <p style='font-size: 80px;'>{description}</p>
+    <p class="clinrec"><b>Доказательная медицина:</b> {clinrec}</p>
+    <p class="msrp"><b>Рекомендованная цена:</b> {msrp} руб.</p>
+    <div class="bottom">
+        <hr/>
+        <p style="font-size: 40px;"><b>Подробнее:</b> t.me/mediq_test_bot</p>
+        <p style="font-size: 30px;">info@mediqlab.com &nbsp; 2022</p>
+    </div>
+</body>
+
+</html>
